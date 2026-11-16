@@ -1,6 +1,6 @@
 /* Funciona offline: guarda os arquivos do app no aparelho.
    A cada publicação nova, troque VERSAO para o app se atualizar sozinho. */
-const VERSAO = 'psi-2026-11-16d';
+const VERSAO = 'psi-2026-11-16e';
 const ARQS = ['./', 'index.html', 'app.css', 'app.js', 'dados.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', (e) => {
