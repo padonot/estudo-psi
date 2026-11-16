@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3E2A6B">
+<title>Psicologia · Transpetro</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="topo">
+  <span id="titulo">Estudo</span>
+  <span class="topo-acoes">
+    <button id="bt-cheia" class="ico" aria-label="Tela cheia" title="Tela cheia">⛶</button>
+  </span>
+</header>
+<main id="tela"></main>
+<nav id="abas">
+  <button data-aba="hoje"><b>🏠</b>Hoje</button>
+  <button data-aba="simulados"><b>📝</b>Simulado</button>
+  <button data-aba="revisar"><b>🔁</b>Revisar<i id="badge"></i></button>
+  <button data-aba="desempenho"><b>📊</b>Desempenho</button>
+  <button data-aba="ajustes"><b>⚙️</b>Ajustes</button>
+</nav>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
